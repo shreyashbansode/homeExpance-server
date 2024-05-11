@@ -18,6 +18,6 @@ app.use(cors())
 app.use('/', require('./routes/expanceRoute'));
 
 
-app.listen(5000, () => {
+app.listen(8000, () => {
     console.log('server is started')
 })
