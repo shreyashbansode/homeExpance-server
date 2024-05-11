@@ -4,7 +4,6 @@ const db = require('./db')
 const cors = require('cors')
 
 
-const PORT = process.env.PORT || 5000;
 
 db.connection.on('connected', (err) => {
 
@@ -20,5 +19,5 @@ app.use('/', require('./routes/expanceRoute'));
 
 
 app.listen(5000, () => {
-    console.log('server is started', PORT)
+    console.log('server is started')
 })

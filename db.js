@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
-const dbHOST = process.env.DBHOST;
 
-mongoose.connect(dbHOST);
+mongoose.connect('mongodb+srv://shreyashbansode1:BdFmg7DphqFCIfAQ@cluster0.aulmb3f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 module.exports = mongoose
